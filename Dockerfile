@@ -59,7 +59,7 @@ RUN apt-get update -qq \
     
   	feather \
   	sqldf \ 
-  	fst \
+  	# fst \ # not needed
   	janitor \
   	arrow \
   	bs4Dash \
@@ -68,8 +68,9 @@ RUN apt-get update -qq \
   	DT \
   	echarts4r \
   	leaflet \
-  	glue \
-  	skimr \
+  	# skimr \ # not needed
+  	glue
+  	
 
 
 
